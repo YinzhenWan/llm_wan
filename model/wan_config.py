@@ -1,7 +1,7 @@
 from transformers import PretrainedConfig
 
 class WANConfig(PretrainedConfig):
-    model_type = "Ndl"
+    model_type = "wan"
     keys_to_ignore_at_inference = ["past_key_values"]
     def __init__(
         self,
